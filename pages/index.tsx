@@ -73,7 +73,7 @@ const Home: NextPage = () => {
               ))}
             </Box>
             <Box>
-              <Text fontSize={"small"} fontWeight={"bold"}>$CARROT Balance:</Text>
+              <Text fontSize={"small"} fontWeight={"bold"}>USDT Balance:</Text>
                 {rewardBalance && (
                     <p>{ethers.utils.formatUnits(rewardBalance, 18)}</p>
                   )}
