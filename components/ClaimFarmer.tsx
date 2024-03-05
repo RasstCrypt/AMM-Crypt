@@ -8,8 +8,8 @@ export function ClaimFarmer() {
     
     return (
         <Container maxW={"1200px"}>
-            <Flex direction={"column"} alignItems={"center"} justifyContent={"center"} h={"50vh"}>
-                <Heading>Claim Farmer to start farming</Heading>
+            <Flex direction={"column"} alignItems={"center"} justifyContent={"center"} h={"80vh"}>
+                <Heading>Claim NFT To Get Earn USDT</Heading>
                 <Box borderRadius={"8px"} overflow={"hidden"} my={10}>
                     <MediaRenderer
                         src={metadata?.image}
